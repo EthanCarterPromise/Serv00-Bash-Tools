@@ -2,8 +2,8 @@
 
 # 定义压缩包 URL
 ZIP_URL="https://github.com/EthanCarterPromise/Serv00-Bash-Tools/archive/refs/heads/master.zip"
-TARGET_DIR="Serv00-Bash-Tools"
-MODULES_DIR="$TARGET_DIR/Serv00-Bash-Tools-master/modules"  # GitHub 解压后的目录结构
+TARGET_DIR="$HOME/Serv00-Bash-Tools"  # 使用 $HOME 确保路径正确
+MODULES_DIR="$TARGET_DIR/Serv00-Bash-Tools-master/modules"  # 解压后的模块路径
 
 # 检查并创建目标目录
 if [ ! -d "$TARGET_DIR" ]; then
