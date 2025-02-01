@@ -1,4 +1,4 @@
-# serv00-scripts
+# Serv00-Scripts
 some scripts of serv00
 
 ```
